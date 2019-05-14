@@ -1,0 +1,277 @@
+.blogPost {
+    width: 1600px;
+    height: 2120px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.blogPost header {
+    height: 90px;
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    margin: 0;
+}
+
+.blogPost header img {
+    margin: 28px 426px 27px 229px;
+    float: left;
+}
+
+.blogPost header ul {
+    list-style: none;
+    width: 531px;
+    height: 15px;
+    padding: 0;
+    margin: 40px 248px 35px 0;
+    float: right;
+}
+
+.blogPost header ul li {
+    float: left;
+    margin: 0 45px 0 0;
+    position: relative;
+}
+
+.blogPost header ul li a {
+    text-decoration: none;
+    color: #777;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.blogPost header ul li a:hover {
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 1.05px;
+    font-family: "Roboto - Bold", sans-serif;
+}
+
+.blogPost .unHeader {
+    width: 1606px;
+    height: 350px;
+    background-image: url(../Images/Blog/slider_01-mokhgqwtr9u2rwxhakqtevd7311vu1meqdvfikirwo.jpg);
+}
+
+.blogPost .unHeader div {
+    display: inline-block;
+    width: 550px;
+    height: 56px;
+    background-color: #000000;
+    background-color: #000;
+    margin: 115px 0 0 233px;
+}
+
+.blogPost .unHeader div h1 {
+    display: inline-block;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+    margin: 15px 31px 11px 23px;
+}
+
+.blogPost .unHeader p {
+    width: 375px;
+    height: 15px;
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 7.2px;
+    margin: 44px 0 0 232px;
+}
+
+.blogPost .mainBlogPost article h1 {
+    width: 847px;
+    color: #333;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 4.5px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin: 70px 0 20px 405px;
+}
+
+.blogPost .mainBlogPost article span {
+    font-family: "Roboto - Bold", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.35px;
+    line-height: 36px;
+    color: #777;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.blogPost .mainBlogPost article span:nth-child(2) {
+    margin-left: 595px;
+}
+
+.blogPost .mainBlogPost article span:nth-child(3) {
+    margin-left: 70px;
+}
+
+.blogPost .mainBlogPost article span:nth-child(4) {
+    margin-left: 60px
+}
+
+.blogPost .mainBlogPost article img {
+    margin: 25px 0 50px 327px;
+}
+
+.blogPost .mainBlogPost article p {
+    width: 809px;
+    font-family: "Roboto - Regular", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    line-height: 30px;
+    color: #777;
+    font-size: 14px;
+    margin: 0 0 20px 394px;
+}
+
+.blogPost .mainBlogPost article p:nth-child(6) {
+    margin: 0 0 20px 394px;
+}
+
+.blogPost .mainBlogPost article div {
+    width: 942px;
+    height: 130px;
+    border: 1px solid #e1e1e1;
+    border-left: 4px solid #000;
+    margin: 0 0 0 327px;
+}
+
+.blogPost .mainBlogPost article div p {
+    margin: 23px 0 0 38px;
+    width: 869px;
+    height: 78px;
+    color: #777;
+    font-family: "PT Serif";
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 30px;
+}
+
+.blogPost .mainBlogPost article h2 {
+    color: #333333;
+    font-family: "Roboto - Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    line-height: 36px;
+    text-transform: uppercase;
+    width: 809px;
+    margin: 40px 0 20px 394px;
+}
+
+.blogPost .mainBlogPost h1:nth-last-child(7) {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 241px;
+    margin: 65px 0 49px 682px;
+}
+
+.blogPost .mainBlogPost input {
+    color: #c4c4c4;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
+    width: 245px;
+    height: 38px;
+    border: 1px solid #e1e1e1;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+.blogPost .mainBlogPost input:nth-last-of-type(3) {
+    margin-left: 363px;
+}
+
+.blogPost .mainBlogPost textarea {
+    width: 825.5px;
+    height: 107px;
+    border: 1px solid #e1e1e1;
+    color: #c4c4c4;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin: 22px 0 0 363px;
+}
+
+.blogPost .mainBlogPost button {
+    width: 195px;
+    height: 42px;
+    background-color: #000;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21.33px;
+    text-transform: uppercase;
+    letter-spacing: 0.79px;
+    border: none;
+    border-radius: 2.5px;
+    margin: 24px 0 86px 702px;
+}
+
+.blogPost footer {
+    float: left;
+    margin: 0 0 0 0;
+    width: 1604px;
+    height: 300px;
+    box-shadow: 0 -3px 5px 1px rgba(163, 163, 163, 0.1);
+    background-color: #fff;
+}
+
+.blogPost footer img {
+    margin: 64px 740px 68px 733px;
+}
+
+.blogPost footer a {
+    color: #777777;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 100px
+}
+
+.blogPost footer a:nth-child(1) {
+    margin-left: 500px
+}
+
+.blogPost footer p {
+    width: 412px;
+    height: 10px;
+    color: #9c9c9c;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin: 62px 0 0 594px;
+}
+
+.blogPost footer p span {
+    color: #000000;
+    letter-spacing: 0.33px;
+}

@@ -1,0 +1,403 @@
+.contact {
+    width: 1600px;
+    height: 2290px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.contact header {
+    height: 90px;
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    margin: 0;
+}
+
+.contact header img {
+    margin: 28px 426px 27px 229px;
+    float: left;
+}
+
+.contact header ul {
+    list-style: none;
+    width: 531px;
+    height: 15px;
+    padding: 0;
+    margin: 40px 248px 35px 0;
+    float: right;
+}
+
+.contact header ul li {
+    float: left;
+    margin: 0 45px 0 0;
+    position: relative;
+}
+
+.contact header ul li a {
+    text-decoration: none;
+    color: #777;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.contact header ul li a:hover {
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 1.05px;
+    font-family: "Roboto - Bold", sans-serif;
+}
+
+.unHeader {
+    width: 1606px;
+    height: 350px;
+    background-color: #f0f0f2;
+}
+
+.unHeader div {
+    display: inline-block;
+    width: 440px;
+    height: 56px;
+    background-color: #000000;
+    margin: 115px 0 0 233px;
+}
+
+.unHeader div h1 {
+    display: inline-block;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+    margin: 15px 4px 11px 37px;
+}
+
+.unHeader p {
+    width: 306px;
+    height: 15px;
+    color: #000000;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 7.2px;
+    margin: 44px 0 0 232px;
+}
+
+.unHeader img {
+    display: inline-block;
+    margin: -230px 0 0 766px
+}
+
+.mainContact .review h1 {
+    width: 326px;
+    color: #000;
+    font-size: 30px;
+    letter-spacing: 12px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: Robot, sans-serif;
+    font-weight: 300;
+    margin: 87px 0 0 229px;
+}
+
+.mainContact .review .officeInfo {
+    width: 326px;
+    letter-spacing: 0.4px;
+    line-height: 30px;
+    color: #2f302f;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 30px 0 64px 229px;
+}
+
+.mainContact .review .title {
+    width: 293px;
+    height: 131px;
+    font-family: "Roboto - Bold", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #222;
+    font-family: ;
+    font-weight: 700;
+    letter-spacing: 0.38px;
+    margin: 45px 0 0 228px;
+}
+
+.mainContact .review .title2 {
+    font-family: "Roboto - Regular", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.38px;
+    color: #777777;
+}
+
+.mainContact .review .title3 {
+    color: #555555;
+    font-family: "Roboto - Bold", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.38px;
+}
+
+.mainContact .review input {
+    width: 358px;
+    height: 40px;
+    border: 1px solid #ebebeb;
+    color: #bababa;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 0.35px;
+}
+
+.mainContact .review textarea {
+    width: 748px;
+    height: 150px;
+    border: 1px solid #ebebeb;
+    position: absolute;
+    left: 621px;
+    top: 594px;
+    color: #bababa;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 0.35px;
+}
+
+.mainContact .review input:not([type="email"]) {
+    position: absolute;
+    left: 624px;
+    top: 522px
+}
+
+.mainContact .review input:not([type="text"]) {
+    position: absolute;
+    left: 1010px;
+    top: 522px
+}
+
+.mainContact .review button {
+    width: 218px;
+    height: 39px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21.33px;
+    text-transform: uppercase;
+    letter-spacing: 0.79px;
+    margin: 0 0 79px 618px;
+    border-style: none;
+    border-radius: 2.5px;
+}
+
+.mainContact .review .mape {
+    width: 1600px;
+    height: 360px;
+    background-image: url(../Images/Contact/Layer_6.jpg);
+    margin: 0 auto;
+}
+
+.mainContact .review .geo {
+    width: 326px;
+    height: 153px;
+    border: 1px solid #ebebeb;
+    background-color: #ffffff;
+    position: absolute;
+    left: 703px;
+    top: 987px;
+}
+
+.mainContact .review .geo .geoText {
+    width: 277px;
+    height: 72px;
+    margin: 28px 26px 28px 26px;
+    text-align: center;
+}
+
+.mainContact .review .geo .geoText .line1 {
+    color: #041608;
+    font-family: "Roboto - Bold", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.35px;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+
+.mainContact .review .geo .geoText .line2 {
+    font-family: "Roboto Light", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.35px;
+    font-size: 14px;
+}
+
+.mainContact section .title {
+    width: 595px;
+    text-align: center;
+    color: #000;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 12px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin: 71px 0 0 503px;
+}
+
+.mainContact section .text {
+    width: 595px;
+    font-family: "Roboto - Regular", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    line-height: 30px;
+    color: #777777;
+    font-size: 14px;
+    margin: 0 0 63px 503px;
+    text-align: center;
+}
+
+.mainContact section .shutterstock1 {
+    margin-left: 230px;
+    float: left;
+}
+
+.mainContact section .shutterstock1 h1 {
+    width: 339px;
+    color: #000;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 7.2px;
+    line-height: 24px;
+    margin: 27px 0 0 2px;
+}
+
+.mainContact section .shutterstock1 p {
+    font-family: "Roboto - Regular", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    line-height: 30px;
+    width: 339px;
+    color: #777;
+    font-size: 14px;
+    margin: 0;
+}
+
+.mainContact section .shutterstock2 {
+    margin-left: 34px;
+    float: left;
+}
+
+.mainContact section .shutterstock2 h1 {
+    width: 339px;
+    color: #000;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 7.2px;
+    line-height: 24px;
+    margin: 27px 0 0 2px;
+}
+
+.mainContact section .shutterstock2 p {
+    font-family: "Roboto - Regular", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    line-height: 30px;
+    width: 339px;
+    color: #777;
+    font-size: 14px;
+    margin: 0;
+}
+
+.mainContact section .shutterstock3 {
+    margin-left: 35px;
+    float: left;
+}
+
+.mainContact section .shutterstock3 h1 {
+    width: 339px;
+    color: #000;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 7.2px;
+    line-height: 24px;
+    margin: 27px 0 0 2px;
+}
+
+.mainContact section .shutterstock3 p {
+    font-family: "Roboto - Regular", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    line-height: 30px;
+    width: 339px;
+    color: #777;
+    font-size: 14px;
+    margin: 0;
+}
+
+.contact footer {
+    float: left;
+    margin: 155px 0 0 0;
+    width: 1604px;
+    height: 300px;
+    box-shadow: 0 -3px 5px 1px rgba(163, 163, 163, 0.1);
+    background-color: #fff;
+}
+
+.contact footer img {
+    margin: 64px 740px 68px 733px;
+}
+
+.contact footer a {
+    color: #777777;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 100px
+}
+
+.contact footer a:nth-child(1) {
+    margin-left: 500px
+}
+
+.contact footer p {
+    width: 412px;
+    height: 10px;
+    color: #9c9c9c;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin: 62px 0 0 594px;
+}
+
+.contact footer p span {
+    color: #000000;
+    letter-spacing: 0.33px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
