@@ -1,0 +1,461 @@
+.main {
+    width: 1600px;
+    height: 2600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main header {
+    height: 90px;
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    margin: 0;
+}
+
+.main header img {
+	margin: 28px 426px 27px 229px;
+    float: left;
+}
+
+.main header ul {
+    list-style: none;
+    width: 531px;
+    height: 15px;
+    padding: 0;
+    margin: 40px 248px 35px 0;
+    float: right;
+}
+
+.main header ul li {
+    float: left;
+    margin: 0 45px 0 0;
+    position: relative;
+}
+
+.main header ul li a {
+    text-decoration: none;
+    color: #777;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.main header ul li a:hover {
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 1.05px;
+    font-family: "Roboto - Bold", sans-serif;
+}
+
+.about {
+    width: 1600px;
+    height: 2420px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.about header {
+    height: 90px;
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    margin: 0;
+}
+
+.about header img {
+    margin: 28px 426px 27px 229px;
+    float: left;
+}
+
+.about header ul {
+    list-style: none;
+    width: 531px;
+    height: 15px;
+    padding: 0;
+    margin: 40px 248px 35px 0;
+    float: right;
+}
+
+.about header ul li {
+    float: left;
+    margin: 0 45px 0 0;
+    position: relative;
+}
+
+.about header ul li a {
+    text-decoration: none;
+    color: #777;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.about header ul li a:hover {
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 1.05px;
+    font-family: "Roboto - Bold", sans-serif;
+}
+
+.about .agencyAbout {
+    width: 1606px;
+    height: 350px;
+    background-color: #f0f0f2;
+    position: relative;
+}
+
+.agencyAbout img {
+    float: right;
+    margin-right: 8px;
+}
+
+.agencyAbout .ata {
+    width: 590px;
+    height: 56px;
+    background-color: #000;
+    position: absolute;
+    left: 233px;
+    top: 115px
+}
+
+.agencyAbout .ata h1 {
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+    margin: 16px 30px;
+}
+
+.agencyAbout span {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 7.2px;
+    position: absolute;
+    left: 232px;
+    top: 215px;
+}
+
+.menuMain {
+    width: 1140px;
+    height: 82px;
+    margin: 0 auto;
+    margin-top: 33px;
+    margin-bottom: 29px;
+    border-bottom: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+    padding-top: 26px
+}
+
+.menuMain ul {
+    list-style: none;
+    padding: 0;
+    width: 728px;
+    height: 11px;
+    margin: 0 auto;
+}
+
+.menuMain ul li {
+    float: left;
+    color: #777777;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.menuMain ul li a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.menuMain ul li img {
+    margin: 0 15px;
+}
+
+.menuMain ul li a:hover {
+    color: #000000;
+}
+
+.imgMain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.product1,
+.product4,
+.product7 {
+    margin-left: 228px;
+}
+
+.product3,
+.product6,
+.product9 {
+    margin-right: 232px
+}
+
+.product10 {
+    grid-column: 2;
+}
+
+.product4 {
+    margin-top: -100px;
+}
+
+.product5 {
+    margin-top: -200px
+}
+
+.product7,
+.product8 {
+    margin-top: -300px;
+}
+
+.product9 {
+    margin-top: -200px;
+}
+
+.product10 {
+    margin-top: -500px;
+}
+
+.contentMain button {
+    width: 125px;
+    height: 30px;
+    background-color: #959595;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20.57px;
+    text-transform: uppercase;
+    letter-spacing: 0.76px;
+    margin: 0 0 73px 735px;
+    border: none;
+    border-radius: 2.5px;
+}
+
+.main footer {
+    width: 1604px;
+    height: 300px;
+    box-shadow: 0 -3px 5px 1px rgba(163, 163, 163, 0.1);
+    background-color: #fff;
+}
+
+.main footer img {
+    margin: 64px 740px 68px 733px;
+}
+
+.main footer a {
+    color: #777777;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 100px
+}
+
+.main footer a:nth-child(1) {
+    margin-left: 500px
+}
+
+.main footer p {
+    width: 412px;
+    height: 10px;
+    color: #9c9c9c;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin: 62px 0 0 594px;
+}
+
+.main footer p span {
+    color: #000000;
+    letter-spacing: 0.33px;
+}
+
+.mainAbout article img {
+    margin: 72px 50px 0 232px;
+    float: left;
+}
+
+.mainAbout article h1 {
+    display: inline-block;
+    cwidth: 158px;
+    height: 13px;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 7.2px;
+    margin-top: 81px;
+}
+
+.mainAbout article h2 {
+    display: inline-block;
+    cwidth: 158px;
+    height: 13px;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 7.2px;
+    margin-top: 42px;
+}
+
+.mainAbout article p {
+    width: 540px;
+    height: 250px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    line-height: 30px;
+    color: #777777;
+    margin-left: 812px;
+}
+
+.mainAbout article progress {
+    width: 490px;
+    height: 2px;
+    background-color: #a1a1a1
+}
+
+.mainAbout section div {
+    float: left;
+	width: 595px;
+    text-align: center;
+height: 138px;
+margin: 100px 503px 78px 502px;
+}
+
+.mainAbout section h1 {
+
+	color: #777777;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+	
+}
+
+.mainAbout section p {
+	font-family: "Roboto - Regular";
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    line-height: 30px;
+}
+
+.mainAbout .saturation_1 {
+    margin: 0 29px 35px 231px; 
+    float: left;
+width: 358px;
+height: 438px;
+background-color: #eeeeee;
+}
+
+.mainAbout .saturation_1 img {
+    margin: 15px 42px 0 53px;
+}
+
+.mainAbout .saturation_2 {
+    margin: 0 34px 35px 0;
+float: left;
+width: 358px;
+height: 438px;
+background-color: #eeeeee;
+}
+
+.mainAbout .saturation_2 img {
+    margin: 11px 61px 0 61px;
+}
+
+.mainAbout .saturation_3 {
+    margin: 0 0 35px 0;
+    float: left;
+    width: 358px;
+height: 438px;
+background-color: #eeeeee;
+}
+
+.mainAbout .saturation_3 img {
+    margin: 0 0 0 55px
+}
+
+.mainAbout .lianJoy, .mainAbout .albertThanh, .mainAbout .jennPereira {
+width: 281px;
+height: 123px;
+color: #9c9c9c;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+    margin: 0;
+    text-align: left;
+
+}
+.mainAbout .lianJoy {
+    margin-left: 265px;
+}
+
+.mainAbout .albertThanh {
+    margin-left: 106px
+}
+
+.mainAbout .jennPereira {
+    margin-left: 111px
+}
+
+.about footer {
+    float: left;
+    margin: 107px 0 0 0;
+    width: 1604px;
+    height: 300px;
+    box-shadow: 0 -3px 5px 1px rgba(163, 163, 163, 0.1);
+    background-color: #fff;
+}
+
+.about footer img {
+    margin: 64px 740px 68px 733px;
+}
+
+.about footer a {
+    color: #777777;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 100px
+}
+
+.about footer a:nth-child(1) {
+    margin-left: 500px
+}
+
+.about footer p {
+    width: 412px;
+    height: 10px;
+    color: #9c9c9c;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin: 62px 0 0 594px;
+}
+
+.about footer p span {
+    color: #000000;
+    letter-spacing: 0.33px;
+
